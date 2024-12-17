@@ -1,7 +1,6 @@
 import { ThemeToggle } from "@/components";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import { ConsoleSidebar } from "./console-sidebar";
-import { Button } from "@/components/ui/button";
 import { ConsoleHistory } from "./console-history";
 
 type ConsoleLayoutProps = {
